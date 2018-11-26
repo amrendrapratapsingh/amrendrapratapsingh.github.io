@@ -1,235 +1,237 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Uibrains</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amrendra @ React</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+	<title>Amrendra @React</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Amrendra @React</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">HOME</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">My Blog</a></li>
+              <!--<li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Testimonials</a></li>-->
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
+              <!--<li class="nav-item"><a href="#customers" class="nav-link link-scroll">Clients</a></li>-->
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <div data-animate="fadeInDown" class="logo"><img src="img/babu.jpg" alt="logo" width="230" class="image rounded-circle img-fluid"></div>
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hi, I'm Amrendra Pratap </h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">FOLLOW ME ON : https://github.com/amrendrapratapsingh</p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <h2>Hi There! I'm Amrendra Pratap </h2>
+			<p>I am a enthusiastic React and UI with a Full Stack NodeJS Developer .
+			I am passionate and loving with web development,But I would totally give my best for creating
+			a awesome and creative websites.
+			I create beautiful professional websites using best practice accessibility. 
+			I enjoy turning complex problems into simple, beautiful and perceptive interface designs.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <div class="skill-item">
+              <div class="progress-title">React</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 75%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">HTML5 & CSS3	</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">javaScript</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">NodeJS</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 90%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">PHP</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/babu2.jpg" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">My BLOG</h2>
+        </header>
+          <h2 data-animate="fadeInDown" class="title" class="text-center">ReactJS</h2>
+        
+      <p>- Explained Simply
+June 04, 2018 / by <mark style="color:blue">Amrendra Pratap Singh</mark>-
+ReactJS basically is an open-source JavaScript library which is used for building user interfaces specifically for single page applications.
+ It’s used for handling view layer for web and mobile apps. 
+ React also allows us to create reusable UI components. 
+ React was first created by Jordan Walke, a software engineer working for Facebook.
+ React first deployed on Facebook’s newsfeed in 2011 and on Instagram.com in 2012.
+React allows developers to create large web applications which can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. It works only on user interfaces in application. This corresponds to view in the MVC template. It can be used with a combination of other JavaScript libraries or frameworks, such as Angular JS in MVC.
+</p>
 
-    <style>
-         body{
 
-         	background-color: whitesmoke; 
-         	margin:0px;
-         	
-         }
-         h2{
-         	background-color: seagreen;
-         	
-         	text-align:center;
-         	color:white;
-         }
-         table ,td{
-         	text-align: center;
-         	color: red;
+<p>
+React components implement a render() method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by render() via this.props.
+</p>
 
-         }
-         img{
-         	border-radius: 10px;
-         }
-         header {
-        	background-image: url(img/nature_path.jpg);
-        	padding: 10px;
-        	color: white;
-        	font-size: 20px;
-        }
-        div{
-        	margin: 0;
-        }
-    	
-    </style>
-</head>
-<body>
-	<!-- main navigation -->
-	<div align="center">
-<a href="#home">Home</a> |
-<a href="#online-course">Online Courses Available</a> |
-<a href="#course-offered">Courses Offered </a> |
-<a href="#faculties">About Faculties & MANAGEMENT</a> |
-<a href="#Infrastructure">Software Training Infrastructure</a> |
-<a href="#main-footer">main-footer</a> |
-</div>
-	<div id="home">
-<header>
-	<h1 align="center">UiBrains</h1>
-	<p align="center">The smart way of learning</p>
-</header>
+<code>
+class HelloMessage extends React.Component {
+  render() {
+    return (
+      <div>
+        Hello {this.props.name}
+      </div>
+    );
+  }
+}
 
-
-
-<hr>
-<h2>UI BRAINS Best Institute In India</h2>
-<p align="center"><b>Usually, UI stands for User Interface which mainly comes under the human-interaction field. The main objective of UI Technology is to to make the user’s interaction as very simple and most efficient. UI helps us to decrease the gap between requirements and implementation over structured systems associated with the programming language. This UI Technologies Training helps the aspirants to learn the complete concept from beginner stage to advanced . </b></p>
-<table width="100%">
-	<tr>
-		<td>
-			<img src="img/naveen.jpg" width="580" height="350">
-		</td>
-		<td>
-			<img align="right" src="img/naveen6.jpg" width="580" height="350">
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<b>Naveen sir</b>
-		</td>
-		<td>
-			<b>UI BRAINS </b> 
-		</td>
-	</tr>
-</table>
-</div>
-<div id="online-course">
+ReactDOM.render(
+  <HelloMessage name="Taylor" />,
+  mountNode
+);
+</code>
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Would you like to know more or just discuss something?</p>
+          <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+        </div>
+      </div>
+    </section>
 	
-<h2>Online Courses Available</h2>
-<p align="center"><b>The UI BRAINS Software Training Institute of Hyderabad, India offers multiple Online training schedules to meet our students needs.</b></p>
-<table width="100%">
-	<tr>
-		<td>
-			<iframe width="580" height="350" src="https://www.youtube.com/embed/qDUYIQZVQDE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		</td>
-		<td>
-			<iframe width="580" height="350" src="https://www.youtube.com/embed/qDUYIQZVQDE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		</td>
-	</tr>
-	<tr>
-		<td>
-		 First Online Basic Video	
-		</td>
-		<td>
-			Second Online Video
-		</td>
-	</tr>
-</table>
-
-</div>
-<div id="course-offered">
-	<h2>Courses Offered  </h2>
-	<p align="center"> <b>The UI BRAINS Software Training Institute of Hyderabad, India offers multiple training schedules to meet our students needs.  Most of our students already have careers, work obligations, children etc., and our software training classes are designed to work well within these lifestyles</b></p>
-	<table width="100%">
-		<tr>
-			<td>
-				<img src="img/html.jpg" width="170" height="150">
-			</td>
-			<td>
-				<img src="img/css.jpg" width="170" height="150">
-			</td>
-			<td>
-				<img src="img/java.png" width="170" height="150">
-			</td>
-			<td>
-				<img src="img/jquery.jpg" width="170" height="150">
-			</td>
-			<td>
-				<img src="img/boot.jpg" width="170" height="150">
-			</td>
-			<td>
-				<img src="img/angu.png" width="170" height="150">
-			</td>
-			<td>
-				<img src="img/node.jpg" width="170" height="150">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				HTML
-			</td>
-			<td>
-					CSS
-			</td>
-			<td>
-			JavaScript
-			</td>
-			<td>
-				JQuery
-			</td>
-			<td>
-				Bootstrap
-			</td>
-			<td>
-         Angular JS			
-         </td>
-			<td>
-				Node JS</td>
-		</tr>
-	</table>
-</div>
-<div id="faculties">
-	<h2> About Faculties & MANAGEMENT </h2>
-	<p align="center"> UI BRAINS Management have more than 5 years of experience in IT Industry in various domains. and
-	basically <mark>Naveen Saggam</mark> contribute own 100% efforts for the 
-	progess of organization, With a motto of empowering youth in IT education to IT Careers, Management has shown great interest in this field and was able to see vision of the company goal.  Strategies adopted to make the students ready for the Job are different and hence able to see the positive response from Job seekers and hiring companies.  Developing the core team members and encouraging software trainers to deliver World Class Software Training keeping the standards in mind which is our passion and quickly adopting to latest technology trends and cutting-edge technologies.</p>
-	<table width="100%">
-		<tr>
-			<td>
-				<img src="img/naveen.jpg" width="580" height="350">
-			</td>
-			<td>
-				<img src="img/ba.jpg" width="580" height="350">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<b>Naveen Saggam (Director)</b>
-			</td>
-			<td>
-				Amrendra Pratap singh 
-			</td>
-		</tr>
-	</table>
+    <!-- Testimonials-->
+    
+    <!-- Statistics-->
+    
+    <!--
+    *** REFERENCES IMAGE ***
+    _________________________________________________________
+    -->
+    
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Contact me</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form id="contact-form" method="post" action="">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="name" placeholder="Your firstname *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="surname" placeholder="Your lastname *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="email" placeholder="Your email *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="phone" placeholder="Your phone" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <textarea name="message" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-outline-primary">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map-->
 	
-</div>
-<div id="Infrastructure">
-	<h2> Software Training Infrastructure </h2>
-	<p align="center"> UI BRAINS Training Institute has World Class Lab facilities located in the heart of the city of Hyderabad & Chennai.
-
-World Class Software Training Lab having modern classroom equipped with latest teaching aids.
-
-Full fledged Software Lab with state-of-the-art PCs connected in network and Open Source/Development software</p>
-	<table width="100%">
-		<tr>
-			<td>
-				<img src="img/ui1.jpg" width="300" height="200">
-			</td>
-			<td>
-				<img src="img/Naveen3.jp.jpg" width="300" height="200">
-			</td>
-			<td>
-			<img src="img/ui2.jpg" width="300" height="200">
-			</td>
-			<td>
-			<img src="img/naveen6.jpg" width="300" height="200">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<b>Management Block</b>
-			</td>
-			<td>
-				Class Room
-			</td>
-			<td>
-				Session Board class
-			</td>
-			<td>
-				UI BRAINS 
-			</td>
-		</tr>
-	</table>
+    <!--<div id="map"></div>-->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social"><a href="https://www.facebook.com/amrendra.pratapsingh.35574" class="external facebook wow fadeInUp" target="_blank"><i class="fa fa-facebook"></i></a><a href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope" ></i></a></p>
+          </div>
+          <!-- /.6-->
+           
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p> Copyright &copy; 2017 <br> Developed & Maintained by<a class="text-warning" href="https://github.com/amrendrapratapsingh"
+                         target="_blank"> <i class="fa fa-user-circle"></i> Amrendra Pratap Singh </a>
+						 </p>
+                </div>   
+        </div>
+    
+    </footer>
 	
-</div>
-<div id="main-footer">
-	<footer>
-	<h2 align="center"> Copyright &copy; 2018 , UiBRAINS Technologies</h2>
-	<p align="center"> All Rights Reserved</p>
-	<p align="center"> Developed & Maintained By Thakur Amrendra Pratap Singh</p>
-	</footer>
-</div>
-<div align="center">
-<a href="#home">Home</a> |
-<a href="#online-course">Online Courses Available</a> |
-<a href="#course-offered">Courses Offered </a> |
-<a href="#faculties">About Faculties & MANAGEMENT</a> |
-<a href="#Infrastructure">Software Training Infrastructure</a> |
-<a href="#main-footer">main-footer</a> |
-</div>
-
-</body>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <script src="js/front.js"></script>
+  </body>
 </html>
